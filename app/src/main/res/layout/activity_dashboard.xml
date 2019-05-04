@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFEFF0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+
+    <TextView
+        android:id="@+id/dashboard_header"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="What do you want to create?"
+        android:textColor="#FF6F61"
+        android:textSize="30sp"
+        app:fontFamily="monospace"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFEFF0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387"
+        tools:context=".dashboard">
+
+
+        <Button
+            android:id="@+id/create_note_button"
+            android:layout_width="144dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginBottom="40dp"
+            android:background="#F0948A"
+            android:onClick="createNoteIntent"
+            android:text="Note"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+        <Button
+            android:id="@+id/create_recording_button"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="#F0948A"
+            android:onClick="recordAudioIntent"
+            android:text="Capture Image"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+    </GridLayout>
+
+
+</android.support.constraint.ConstraintLayout>

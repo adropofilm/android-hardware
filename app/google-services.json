@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "670798310405",
+    "firebase_url": "https://labfour-603fa.firebaseio.com",
+    "project_id": "labfour-603fa",
+    "storage_bucket": "labfour-603fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670798310405:android:6012f9e77a50022a",
+        "android_client_info": {
+          "package_name": "com.example.labfour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670798310405-d7n4tipqdi2fmchdfu88huc23eos3hd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZp7KCJNaVeNWZIykX8xHzEoROfUOylJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670798310405-d7n4tipqdi2fmchdfu88huc23eos3hd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
