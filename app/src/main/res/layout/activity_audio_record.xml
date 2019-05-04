@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#FFEFF0"
     android:layout_height="match_parent"
     tools:context=".AudioRecord">
 
@@ -17,6 +18,8 @@
         android:id="@+id/photo_capture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#F0948A"
         android:layout_centerInParent="true"
         android:onClick="loadCamera"
         android:text="Take photo" />
